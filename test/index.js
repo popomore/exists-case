@@ -27,8 +27,9 @@ describe('exists-case', function() {
       });
 
       filepath = join(fixtures, 'camelCase.js');
-      fs.exists(filepath, function(exists) {
-        exists.should.be.true;
+      fs.exists(filepath, function() {
+        // different results on cross platform
+        // exists.should.be.true;
         done();
       });
       exists(filepath, function(exists) {
@@ -49,8 +50,9 @@ describe('exists-case', function() {
         done();
       });
 
-      fs.exists('Package.json', function(exists) {
-        exists.should.be.true;
+      fs.exists('Package.json', function() {
+        // different results on cross platform
+        // exists.should.be.true;
         done();
       });
       exists('Package.json', function(exists) {
@@ -98,7 +100,8 @@ describe('exists-case', function() {
       exists.sync(filepath).should.be.true;
 
       filepath = join(fixtures, 'camelCase.js');
-      fs.existsSync(filepath).should.be.true;
+      // different results on cross platform
+      // fs.existsSync(filepath).should.be.true;
       exists.sync(filepath).should.be.false;
     });
 
@@ -106,7 +109,8 @@ describe('exists-case', function() {
       fs.existsSync('package.json').should.be.true;
       exists.sync('package.json').should.be.true;
 
-      fs.existsSync('Package.json').should.be.true;
+      // different results on cross platform
+      // fs.existsSync('Package.json').should.be.true;
       exists.sync('Package.json').should.be.false;
     });
 
