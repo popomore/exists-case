@@ -9,6 +9,10 @@ Wrap fs.exists for case sensitivity
 [![Build Status](https://img.shields.io/coveralls/popomore/exists-case?style=flat)](https://coveralls.io/r/popomore/exists-case)
 [![NPM downloads](http://img.shields.io/npm/dm/exists-case.svg?style=flat)](https://npmjs.org/package/exists-case)
 
+**Caution: this repo is slower than fs.exists, do not use it in production!**
+
+See [benchmark](https://github.com/popomore/exists-case/tree/master/benchmark)
+
 ## Install
 
 ```
