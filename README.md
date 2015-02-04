@@ -6,7 +6,7 @@ Wrap fs.exists for case sensitivity
 
 [![NPM version](https://img.shields.io/npm/v/exists-case.svg?style=flat)](https://npmjs.org/package/exists-case)
 [![Build Status](https://img.shields.io/travis/popomore/exists-case.svg?style=flat)](https://travis-ci.org/popomore/exists-case)
-[![Build Status](https://img.shields.io/coveralls/popomore/exists-case?style=flat)](https://coveralls.io/r/popomore/exists-case)
+[![Build Status](https://img.shields.io/coveralls/popomore/exists-case.svg?style=flat)](https://coveralls.io/r/popomore/exists-case)
 [![NPM downloads](http://img.shields.io/npm/dm/exists-case.svg?style=flat)](https://npmjs.org/package/exists-case)
 
 **Caution: this repo is slower than fs.exists, do not use it in production!**
