@@ -4,7 +4,7 @@
   "description": "wrap fs.exists for case sensitivity",
   "main": "index",
   "dependencies": {
-    "debug": "~2.1.1"
+    "debug": "~4.1.1"
   },
   "keywords": [
     "exists",
